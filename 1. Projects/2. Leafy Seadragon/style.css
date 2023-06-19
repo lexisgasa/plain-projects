@@ -20,6 +20,7 @@ p {
 
 #leafy {
     color: #1d6e09;
+    text-decoration: underline;
 }
 
 /* Select the elements with the class of 'latin' and make them italicized*/
