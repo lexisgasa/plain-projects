@@ -35,3 +35,29 @@ body {
 .links li:nth-child(1) {
     border-bottom: 1px solid black;
 }
+
+/* ======== BODY ========== */
+/* ? si el div esta a 50% en inline block bajará la imagen abajo, si es ligeramente menor se queda en linea */
+/* ? al estar en border-box, cada div .card ocupara el 49.8% aunque haya padding, el padding lo que hara será hacer la imagen más pequeña ergo habrá más espacio entre imagenes */
+.card {
+  width: 49.8%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+}
+/* ? cada imagen tiene el 100% del width de su padre, que es el div .card, que ocupa un 40% segun el body */
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h2 {
+  display: inline-block;
+  margin: 8px 0 16px 0;
+  
+}
+/* ? padding hace todo más pequeño */
+.gallery {
+  padding: 16px;
+}
