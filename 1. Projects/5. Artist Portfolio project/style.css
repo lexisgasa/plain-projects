@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap");
+
+body {
+  font-family: "Cormorant", serif;
+}
+
+/* =============      HEADER    ========== */
+
+.navbar {
+    margin: 32px;
+}
+.navbar h1 {
+    display: inline-block;
+    margin: 0 32px 0 0;
+}
+/* ? sin grid usamos inline-block para que cada elemento este en linea y se alinee con el otro */
+.links {
+  display: inline-block;
+}
+
+.links ul {
+    padding: 0;
+}
+/* ? lo mismo aquí para que cada li se junte */
+.links li {
+  display: inline-block;
+  margin: 0 9px;
+}
+/* ? recordar que cada <li> es realmente un a, por lo tanto para quitarle el estilo de enlace y darle color este es el target */
+.links a {
+  color: black;
+  text-decoration: none;
+}
+/* al seleccionar el primer hijo de los li de la seccion .links, no hace falta span */
+.links li:nth-child(1) {
+    border-bottom: 1px solid black;
+}
