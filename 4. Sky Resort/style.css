@@ -1,0 +1,47 @@
+root {
+  --reddish: #a6192e;
+  --brownish: #463d36;
+}
+
+body {
+  color: #463d36;
+  background-color: #463d36;
+  font-family: sans-serif;
+}
+
+#board {
+  background-color: white;
+  width: 600px;
+  margin: 20% auto;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+#board h2 {
+  color: #a6192e;
+  font-size: 28px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#board h1 {
+    font-size: 40px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#board p {
+  font-size: 28px;
+}
+
+#board button {
+  background-color: #463d36;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 30px 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
