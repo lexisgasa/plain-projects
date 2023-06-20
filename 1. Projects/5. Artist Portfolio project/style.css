@@ -52,6 +52,10 @@ body {
   object-fit: cover;
 }
 
+.card img:hover {
+  opacity: 0.9;
+}
+
 .card h2 {
   display: inline-block;
   margin: 8px 0 16px 0;
@@ -60,4 +64,36 @@ body {
 /* ? padding hace todo más pequeño */
 .gallery {
   padding: 16px;
+}
+
+
+/* ======= fOOTER ========= */
+
+footer {
+  width: 40%;
+  min-width: 600px;
+  margin: 100px 0 30px 200px;
+}
+
+footer h3 {
+  font-size: 40px;
+}
+
+/* ? para darle un subrayado usamos el border, y para alejarlo y darle espacio le damos padding, utilizando inline-block el width se ajusta donde acaba el elemento y así la linea no tiene un width más largo que el texto */
+footer h3:nth-child(2) {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+/* ?  */
+footer .contact {
+  margin-top: 100px;
+}
+
+/* ? con el margin 0 quedan pegados los 2 <p> */
+footer p {
+  margin: 0;
+  font-size: 20px;
 }
